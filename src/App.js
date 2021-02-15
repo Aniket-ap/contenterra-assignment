@@ -22,6 +22,7 @@ function App() {
     fetchDetails();
   }, []);
 
+  // eslint-disable-next-line no-unused-vars
   const [showPerPage, setShowPerPage] = useState(3);
 
   const [pagination, setPagition] = useState({
